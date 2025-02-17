@@ -25,9 +25,9 @@ jobs:
       dependencies: SpiNNUtils SpiNNMachine SpiNNMan PACMAN spalloc SpiNNFrontEndCommon TestBase
       ubuntu_packages: graphviz
       test_directories: unittests
-      coverage-package: spinnaker_graph_front_end
-      flake8-packages: spinnaker_graph_front_end unittests gfe_examples
-      pylint-packages: spinnaker_graph_front_end
-      mypy-packages: spinnaker_graph_front_end gfe_examples gfe_integration_tests
-      mypy-full_packages: spinnaker_graph_front_end
+      coverage_package: spinnaker_graph_front_end
+      flake8_packages: spinnaker_graph_front_end unittests gfe_examples
+      pylint_packages: spinnaker_graph_front_end
+      mypy_packages: spinnaker_graph_front_end gfe_examples gfe_integration_tests
+      mypy_full_packages: spinnaker_graph_front_end
       cfg_file: spiNNakerGraphFrontEnd
